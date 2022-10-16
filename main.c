@@ -5,8 +5,9 @@ int add(int a, int b) {
 	return temp;
 }
 int main() {
-	int c, d;
-	scanf("%d %d", &c, &d);
-	printf("%d",add(c,d));
+	int c, d, e, f;
+	scanf("%d %d %d %d", &c, &d, &e, &f);	
+	printf("%d\n",add(c,d));
+	printf("%d",add(e,f));
 	return 0;
 }
