@@ -5,10 +5,10 @@ int add(int a, int b) {
 	return temp;
 }
 int main() {
-	int a, b;
-	scanf("%d %d", &a, &b);
+	int c, d;
+	scanf("%d %d", &c, &d);
 	int result;
-	result = add(a, b);
+	result = add(c, d);
 
 	printf("%d",result);
 	return 0;
