@@ -7,9 +7,6 @@ int add(int a, int b) {
 int main() {
 	int c, d;
 	scanf("%d %d", &c, &d);
-	int result;
-	result = add(c, d);
-
-	printf("%d",result);
+	printf("%d",add(c,d));
 	return 0;
 }
